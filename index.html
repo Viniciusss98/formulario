@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-Helper</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer ></script>
+    <script src="https://kit.fontawesome.com/89a3d21376.js" crossorigin="anonymous" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Login Helper</h1>
+    </header>
+    <main>
+        <form>
+            <section class="inputs">
+            <input type="email" placeholder="exemple@hotmail.com">
+            <div class="pass">
+                <input type="password" class="field-pass" id="field-pass" placeholder="******">
+                <i class="fa-solid fa-eye" id="eye" onclick="showpassword()"></i>
+                <i class="fa-solid fa-eye-slash" id="eye-slash" onclick="showpassword()" ></i>
+            </div>
+
+
+            </section>
+            <section class="pass-infos">
+                <div>
+                    <input type="checkbox">
+                    <span>Lembrar senha</span>
+                </div>
+                <a href="#">esqueceu a senha?</a>
+                
+            </section>
+                <button id="button-login">Login</button>
+            <section class="links">
+                <span>Ou entre com:</span>
+                <aside>
+                    <a href="#"><i class="fa-brands fa-linkedin linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-facebook face"></i></a>
+                </aside>
+                
+            </section>
+            <footer>
+                <hr>
+                <span>Ainda não tem uma conta ? <a href="#">Cadastre-se</a></span>
+
+            </footer>
+        </form>
+    </main>
+    
+</body>
+</html>
